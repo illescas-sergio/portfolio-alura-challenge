@@ -1,17 +1,17 @@
 #formacion-01 {
-    background: url("/assets/Formacion/EMPAcrop.jpg") no-repeat center / contain;
+    background: url("../../../assets/Formacion/EMPAcrop.jpg") no-repeat center / contain;
     height: 100%;
     width: 100%;
 }
 
 #formacion-02 {
-    background: url("/assets/Formacion/logoHenry.png") repeat-y center / cover;
+    background: url("../../../assets/Formacion/logoHenry.png") repeat-y center / cover;
     height: 100%;
     width: 100%;
 }
 
 #formacion-03 {
-    background: url("/assets/Formacion/Alura.png") no-repeat center / contain;
+    background: url("../../../assets/Formacion/Alura.png") no-repeat center / contain;
     height: 100%;
     width: 100%;
 }
