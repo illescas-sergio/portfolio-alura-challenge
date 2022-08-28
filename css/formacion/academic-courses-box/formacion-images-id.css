@@ -11,7 +11,7 @@
 }
 
 #formacion-03 {
-    background: url("/assets/Formacion/Alura.png") no-repeat center / contain;
+    background: url("../../../assets/Formacion/Alura.png") no-repeat center / contain;
     height: 100%;
     width: 100%;
 }
