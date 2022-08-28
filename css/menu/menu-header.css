@@ -1,0 +1,12 @@
+.menu__header {
+   align-items: center;
+   display: flex;
+   justify-content: space-around;
+}
+
+.menu__title {
+   color: var(--color-de-fuente);
+   font-size: 16px;
+   font-weight: 700;
+   margin-left: 1rem;
+}

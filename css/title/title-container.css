@@ -1,0 +1,22 @@
+.title__container {
+    color: var(--color-de-fuente);
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-right: 1rem;
+    width: calc(100% - 22.5rem - 1rem);
+}
+
+.title__bio {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    margin-bottom: 1.5rem;
+}
+
+.title__subsection {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    margin-bottom: 1.5rem;
+}

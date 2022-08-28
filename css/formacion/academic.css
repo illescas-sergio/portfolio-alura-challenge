@@ -1,0 +1,14 @@
+.academic {
+    background: var(--color-fondo-about);
+    color: var(--color-de-fuente);
+    padding-top: 3.125rem;
+    padding-bottom: 5rem;
+}
+
+.academic__title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: center;
+    margin: 2rem auto;
+}

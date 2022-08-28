@@ -1,0 +1,15 @@
+.experience__info {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    width: 100%;
+}
+
+.experience__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25.83px;
+    margin: 0;
+}

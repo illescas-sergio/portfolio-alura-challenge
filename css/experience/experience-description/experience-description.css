@@ -1,0 +1,28 @@
+.experience__description {
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+    justify-content: flex-start;
+}
+
+.experience__botao--repo {
+    padding: 1rem;
+    color: #2A7AE4;
+    border-color: #2A7AE4;
+    border-style: solid;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.experience__botao--demo {
+    padding: 1rem;
+    border-color: #2A7AE4;
+    border-style: solid;
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+}

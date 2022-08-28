@@ -1,0 +1,18 @@
+.formcontato {
+    background-color: var(--color-fondo-about);
+    color: var(--color-de-fuente);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.formcontato__contacto {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding-top: 4rem;
+}
+
+.formcontato--esquerda {
+    height: 593px;
+    width: 464px;
+}

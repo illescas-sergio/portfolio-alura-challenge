@@ -1,0 +1,9 @@
+.skills__line {
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: 700;
+    font-size: 16px;
+    gap: 1rem;
+    justify-content: space-between;
+    line-height: 19px;
+}

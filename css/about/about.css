@@ -1,0 +1,7 @@
+.about {
+    align-items: center;
+    background: var(--color-fondo-about);
+    color: var(--color-de-fuente);
+    display: flex;
+    margin-top: 1.5rem;
+}

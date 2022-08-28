@@ -1,0 +1,6 @@
+.academic__courses {
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}

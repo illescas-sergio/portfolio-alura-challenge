@@ -1,0 +1,62 @@
+.formcontato__form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.formcontato__input {
+    border: none;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    margin: 0.5rem 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.formcontato__input::placeholder {
+    align-items: center;
+    color: #A2A2A2;
+    display: flex;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.formcontato__textarea {
+    height: 133px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    border-color: #FFFFFF;
+    border-style: none;
+    margin: 1rem 0;
+}
+
+.formcontato__textarea::placeholder {
+    align-items: center;
+    color: #A2A2A2;
+    display: flex;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 1rem;
+}
+
+.formcontato__botao {
+    align-items: center;
+    background-color: #2A7AE4;
+    border-color:  #2A7AE4;
+    border-radius: 4px;
+    border-style: none;
+    color: #FFFFFF;
+    display: flex;
+    font-weight: 400;
+    font-size: 16px;
+    height: 51px;
+    justify-content: center;
+    line-height: 19px;
+    margin: 2rem 0 0 0;
+    width: 144px;
+}

@@ -1,0 +1,22 @@
+.title {
+    display: flex;
+    flex-direction: row;
+    width: 100%;    
+}
+
+.title__div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.title__profile {
+    background: url("../../assets/profile-ph.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    height: 22.5rem;
+    width: 22.5rem;
+    order: 2;
+}

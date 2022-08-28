@@ -1,0 +1,38 @@
+.experience__box {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+}
+
+.experience__box:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.experience__img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 406px;
+    min-width: calc(100% - 360px - 1rem);
+    width: calc(100% - 22.5rem - 1rem);
+}
+
+#project-01 {
+    background-image: url("../../assets/projects/Encritador.png");
+}
+
+#project-02 {
+    background-image: url("../../assets/projects/Ahorcado.png");
+}
+
+#project-03 {
+    background-image: url("../../assets/projects/CountriesApp.png");
+}
+
+#project-04 {
+    background-image: url("../../assets/projects/Mozo-virtual.png");
+}

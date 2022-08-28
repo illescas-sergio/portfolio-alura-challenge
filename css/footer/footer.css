@@ -1,0 +1,13 @@
+.footer {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 102px;
+}
+
+.footer__rodape {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;  
+    text-align: center;
+}
