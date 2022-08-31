@@ -9,6 +9,8 @@ const email = document.querySelector("[data-tipo=email]");
 const asunto = document.querySelector("[data-tipo=asunto]");
 const mensaje = document.querySelector("[data-tipo=mensaje]");
 
+const boton = document.querySelector("[data-submit]");
+
 nombre.addEventListener('blur', () => {
     if(nombre.validity.valueMissing){
         nombre.setCustomValidity("Por favor, ingrese su nombre");
@@ -31,7 +33,7 @@ email.addEventListener('blur', () => {
 
 asunto.addEventListener('blur', () => {
     if(asunto.validity.valueMissing){
-        asunto.setCustomValidity("No olvides indicar el asunto");
+        asunto.setCustomValidity("No olvide indicar el asunto");
     } else {
         asunto.setCustomValidity("");    
     }
@@ -50,18 +52,25 @@ mensaje.addEventListener('blur', () => {
 formulario.addEventListener('submit', (evento) => {
     evento.preventDefault();
     if(!nombre.validity.valueMissing || !email.validity.patternMismatch || !email.validity.valueMissing || !asunto.validity.valueMissing){
+
         alert("Mensaje enviado. Lo contactaremos a la brevedad");
         inputs.value = "";
         window.location = "index.html";
     } else {
-        formulario.setCustomValidity("Debes completar el formulario antes de enviar!");
+        formulario.setCustomValidity("Debe completar el formulario antes de enviar!");
     }
     formulario.reportValidity()
 });
 
-// formulario.addEventListener('submit', () => {
-//     console.log('estoy en enviar');
-
-//    formulario.reportValidity();
-//   }, false);
-
+window.addEventListener("load", () => {
+    formulario.addEventListener('change', () => {
+    
+        if(!nombre.validity.valueMissing && !email.validity.patternMismatch && !email.validity.valueMissing && !asunto.validity.valueMissing && !mensaje.validity.valueMissing){
+            boton.disabled = false;
+            boton.classList.remove("botao-disabled");
+        } else {
+            boton.disabled = true;
+            boton.classList.add("botao-disabled");
+        }
+    });
+});
