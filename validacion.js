@@ -73,4 +73,4 @@ window.addEventListener("load", () => {
             boton.classList.add("botao-disabled");
         }
     });
-})
+});
