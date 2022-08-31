@@ -51,7 +51,7 @@ mensaje.addEventListener('blur', () => {
 
 formulario.addEventListener('submit', (evento) => {
     evento.preventDefault();
-    if(!nombre.validity.valueMissing || !email.validity.patternMismatch || !email.validity.valueMissing || !asunto.validity.valueMissing){
+    if(!nombre.validity.valueMissing && !email.validity.patternMismatch && !email.validity.valueMissing && !asunto.validity.valueMissing && !mensaje.validity.valueMissing){
 
         alert("Mensaje enviado. Lo contactaremos a la brevedad");
         inputs.value = "";
